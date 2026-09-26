@@ -1,0 +1,26 @@
+.header {
+            
+           
+            
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hover-zoom {
+          transition: transform 0.5s ease-in-out;
+         
+      }
+    
+.hover-zoom:hover {
+          transform: scale(1.05);
+          
+          
+        
+      }
+.hover:hover{
+    background: linear-gradient(
+        45deg,
+        hsla(168, 85%, 52%, 0.5),
+        hsla(263, 37%, 37%, 0.5) 100%
+      );
+      padding: 5%;
+}
